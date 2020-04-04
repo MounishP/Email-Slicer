@@ -1,0 +1,5 @@
+email = input("enter the email id: ")
+email_list = list()
+a = email.split("@")
+email_list.append(a)
+print("{} is the user and domain".format(email_list[0]))
